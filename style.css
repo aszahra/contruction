@@ -1,3 +1,6 @@
+.container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .carousel-inner {
   width: auto;
   height: 400px;
@@ -11,7 +14,7 @@
   display: flex;
   justify-content: center;
   margin-top: 100px;
-  margin-left: 180px;
+  margin-left: 60px;
   margin-bottom: 100px;
   border-style: groove;
 }
@@ -96,4 +99,9 @@ footer {
 footer {
   background-color: rgb(39, 137, 218);
   position: absolute;
+}
+
+.abtUsJudul {
+  justify-content: center;
+  text-align: center;
 }
