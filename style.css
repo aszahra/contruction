@@ -33,3 +33,7 @@ footer {
   justify-content: center;
   text-align: center;
 }
+
+.nav-item {
+  font-size: large;
+}
