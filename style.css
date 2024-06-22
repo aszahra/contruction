@@ -40,7 +40,7 @@ footer {
 
 .image-container {
   position: relative;
-  filter: brightness(0.5);
+  filter: brightness(0.2);
 }
 
 .transparent-card {
@@ -54,5 +54,21 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.peta {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
   background-color: rgba(0,0,0,0.5);
+}
+
+.tulisan {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }

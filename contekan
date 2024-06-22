@@ -317,4 +317,24 @@
 
 </html> -->
 
-        
+<div class="text-overlay">
+    <div class="card mb-3 transparent-card">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="asset/logo.png" class="img-fluid rounded-start">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">HUBUNGI KAMI</h5>
+                    <p class="card-text">
+                        Jl. Ir. H. Juanda No.KM. 2, RW.No. 106, Panglayungan, Kec. Cipedes, Kab.
+                        Tasikmalaya,
+                        Jawa Barat 46151 <br>
+                        Instagram : @asz.construction <br>
+                        Telepon : +62 8175 2564 542 <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
