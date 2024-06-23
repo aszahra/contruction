@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabel dengan Latar Belakang Transparan</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .table {
-            background-color: transparent !important;
-        }
-        .table th,
-        .table td {
-            background-color: transparent !important;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <title>Bootstrap Footer</title>
+  <style>
+    .footer {
+      background-color: #343a40;
+      color: #ffffff;
+      padding: 40px 0;
+    }
+    .footer a {
+      color: #ffffff;
+    }
+    .footer a:hover {
+      color: #f8f9fa;
+      text-decoration: none;
+    }
+    .footer .social-icons a {
+      margin-right: 20px;
+    }
+    .footer .social-icons a:last-child {
+      margin-right: 0;
+    }
+  </style>
 </head>
-<div class="container" style="background-color: aqua;">
-    <body>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col"> ASZ CONSTRUCTION (Persero) Tbk <br> <br>
-                        Jl. Ir. H. Juanda No.KM. 2, RW.No. 106, Panglayungan, Kec. Cipedes, Kab. Tasikmalaya, Jawa
-                        Barat 46151</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>@mdo</td>
-                </tr>
-                <tr>
-                    <td>@fat</td>
-                </tr>
-            </tbody>
-        </table>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    </body>
-</div>
-</html>
+<body>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>About Us</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Contact Us</h5>
+          <ul class="list-unstyled">
+            <li><a href="tel
