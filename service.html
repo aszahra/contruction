@@ -10,50 +10,25 @@
     <link rel="stylesheet" href="style.css">
     <style>
         .image-container {
+            position: relative;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            /* Dua kolom dengan lebar yang sama */
         }
 
-        .image-wrapper {
-            position: relative;
-            /* Mengatur kontainer sebagai referensi untuk elemen absolut di dalamnya */
-        }
-
-        .image-wrapper img {
+        .image-container img {
             width: 100%;
-            /* Gambar mengisi seluruh lebar sel */
             height: auto;
-            /* Menjaga aspek rasio gambar */
-            transition: transform 0.3s ease-in-out;
-            /* Transisi halus untuk transformasi */
         }
 
-        .image-wrapper:hover img,
-        .image-wrapper:hover .text-overlay {
-            transform: scale(0.9);
-            /* Membesarkan gambar dan teks saat di-hover */
+        .image-container img:hover {
+            transform: scale(0.8);
         }
 
-        .text-overlay {
+        .tulisan {
             position: absolute;
-            /* Memposisikan teks di atas gambar */
-            top: 50%;
-            /* Memposisikan teks di tengah vertikal */
-            left: 50%;
-            /* Memposisikan teks di tengah horizontal */
             transform: translate(-50%, -50%);
-            /* Memusatkan teks */
-            color: white;
-            /* Warna teks */
-            font-size: 18px;
-            /* Ukuran teks */
-            font-weight: bold;
-            /* Ketebalan teks */
-            text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.7);
-            /* Bayangan teks agar terbaca dengan jelas */
-            transition: transform 0.9s ease-in-out;
-            /* Transisi halus untuk transformasi */
+            background-color: transparent;
+            width: 100%;
         }
     </style>
 </head>
@@ -79,51 +54,46 @@
         </div>
     </ul>
     <div class="image-container">
-        <div class="image-wrapper">
-            <img src="asset/renovation.png" alt="Renovation">
-            <div class="text-overlay">
-                <h4>
-                    Konstruksi dan Renovasi
-                </h4>
-                <p>
-                    Proyek pembangunan baru serta renovasi dan restorasi bangunan yang sudah ada.
-                </p>
-            </div>
+        <img src="asset/renovation.png" alt="Renovasi">
+        <img src="asset/manajamenProyek.png" alt="Manajemen Proyek">
+        <img src="asset/designCons.png" alt="Desain dan Perencanaan">
+        <img src="asset/konsultasi.png" alt="Konsultasi">
+    </div>
+    <div class="tulisan row" style="padding-bottom: 500px;">
+        <div class="col-md-6">
+            <h4><strong>
+                Konstruksi dan Renovasi
+            </strong></h4>
+            <br>
+            <p>Proyek pembangunan baru serta renovasi dan restorasi bangunan yang sudah ada.</p>
         </div>
-        <div class="image-wrapper">
-            <img src="asset/manajamenProyek.png" alt="Manajemen Proyek">
-            <div class="text-overlay">
-                <h4>
-                    Manajemen Proyek
-                </h4>
-                <p>
-                    Pengelolaan proyek secara menyeluruh untuk memastikan semua aspek berjalan sesuai jadwal, anggaran,
-                    dan standar kualitas.
-                </p>
-            </div>
+        <div class="col-md-6">
+            <h4><strong>
+                Manajemen Proyek
+            </strong></h4>
+            <br>
+            <p>Pengelolaan proyek secara menyeluruh untuk memastikan semua aspek <br>
+                berjalan sesuai jadwal,
+                anggaran, dan standar kualitas.</p>
         </div>
-        <div class="image-wrapper">
-            <img src="asset/designCons.png" alt="Design Consultation">
-            <div class="text-overlay">
-                <h4>
-                    Desain dan Perencanaan
-                </h4>
-                <p>
-                    Layanan arsitektur dan perencanaan untuk membantu klien mewujudkan visi mereka dari konsep
-                    hingga pelaksanaan.
-                </p>
-            </div>
+    </div>
+    <div class="tulisan row" style="margin-top: 300px;">
+        <div class="col-md-6">
+            <h4><strong>
+                Desain dan Perencanaan
+            </strong></h4>
+            <br>
+            <p>Layanan arsitektur dan perencanaan untuk membantu klien mewujudkan visi mereka <br>
+                dari konsep hingga
+                pelaksanaan.</p>
         </div>
-        <div class="image-wrapper">
-            <img src="asset/konsultasi.png" alt="Consultation">
-            <div class="text-overlay">
-                <h4>
-                    Konsultasi
-                </h4>
-                <p>
-                    Saran profesional dan analisis mendalam untuk membantu klien membuat keputusan yang tepat.
-                </p>
-            </div>
+        <div class="col-md-6">
+            <h4><strong>
+                Konsultasi
+            </strong></h4>
+            <br>
+            <p>Saran profesional dan analisis mendalam untuk membantu klien membuat <br>
+                keputusan yang tepat.</p>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
