@@ -21,7 +21,8 @@ body {
 
 footer {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #B0C4DE;
+  background-color: #274e13;
+  color: white;
   position: absolute;
   display: flex;
   justify-content: center;
